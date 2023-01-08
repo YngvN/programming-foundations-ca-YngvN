@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Foundations CA</title>
+    <link href='css/style.css' rel='stylesheet' />
+    <link rel='icon' href='data:;base64,=' />
+
+</head>
+<body>
+
+    <header>
+        <h1>Guitars</h1>
+
+    </header>
+    <main>
+        <div class="container select row">
+            <h2>Brands:</h2>
+            <button class="btn-brand" onclick="displayInfo(0)">Martin</button>
+            <button class="btn-brand" onclick="displayInfo(1)">Furch</button>
+            <button class="btn-brand" onclick="displayInfo(2)">Gibson</button>
+        </div>
+        <div class="container display">
+            <div class="row info"><h3>Name:</h3><span class="guitar-name"></span></div>
+            <div class="row info"><h3>Material:</h3><span class="guitar-material"></span></div>
+            <div class="row info"><h3>Best tuning:</h3><span class="guitar-tuning"></span></div>
+            <div class="row info"><h3>Cutaway:</h3><span class="guitar-cutaway"></span></div>
+            <div class="row info"><h3>Price:</h3><span class="guitar-price resale"></span></div>
+        </div>
+
+    </main>
+    <script src="js/guitar.js"></script>
+</body>
+
+</html>

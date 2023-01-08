@@ -1,0 +1,19 @@
+body {
+	font-family: sans-serif;
+	padding: 1em 3em;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.info {
+	align-content: center;
+	background-color: aliceblue;
+	padding: 1em 0em;
+}
+
+.display-info {
+	padding: .2em 1em;
+}
